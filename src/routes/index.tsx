@@ -139,7 +139,7 @@ function Portfolio() {
       {/* HERO */}
       <section
         id="home"
-        className="relative mx-auto flex min-h-screen max-w-7xl flex-col items-center gap-8 px-6 pt-32 pb-16 lg:flex-row lg:pt-24"
+        className="relative mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center gap-8 px-6 pt-32 pb-16 lg:flex-row lg:pt-24"
       >
         <div className="relative z-10 flex-1 rise-in text-center lg:text-left">
           <span className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs font-medium text-primary">
