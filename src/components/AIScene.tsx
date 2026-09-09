@@ -34,8 +34,10 @@ function Constellation() {
     const pts: THREE.Vector3[] = [];
     for (let i = 0; i < nodes.length; i++) {
       for (let j = i + 1; j < nodes.length; j++) {
-        if (nodes[i].distanceTo(nodes[j]) < 1.5) {
-          pts.push(nodes[i], nodes[j]);
+        const a = nodes[i];
+        const b = nodes[j];
+        if (a && b && a.distanceTo(b) < 1.5) {
+          pts.push(a, b);
         }
       }
     }
